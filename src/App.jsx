@@ -56,7 +56,11 @@ const App = () => {
         taskStatus={taskStatus} 
         resolvedTasks={resolvedTasks}
       />
-      <Footer />
+     
+     <div className="mt-10 sm:mt-16 lg:mt-10">
+    <Footer />
+  </div>
+     
       <ToastContainer
         position="top-center"
         autoClose={3000}
