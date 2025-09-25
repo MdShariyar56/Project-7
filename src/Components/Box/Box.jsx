@@ -1,6 +1,6 @@
 import Container from "../Container/Container";
 
-const Box = () => {
+const Box = ({ inProgress, resolved }) => {
   return (
     <>
       <Container>
@@ -14,8 +14,8 @@ const Box = () => {
 
                <div>
             <h1 className="text-xl  z-10">In-Progress</h1>
-            <h1 className="text-4xl font-bold z-10 text-center">0</h1>
-        </div>
+            <h1 className="text-4xl font-bold z-10 text-center">{inProgress}</h1> 
+</div>
 
         
             <img
@@ -36,7 +36,7 @@ const Box = () => {
 
         <div>
             <h1 className="text-xl  z-10">Resolved</h1>
-            <h1 className="text-4xl font-bold z-10 text-center">0</h1>
+            <h1 className="text-4xl font-bold z-10 text-center">{resolved}</h1>
         </div>
 
         <img
