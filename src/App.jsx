@@ -3,6 +3,8 @@ import Navbar from './Components/Navbar/Navbar';
 import Footer from './Components/Footer/Footer';
 import Box from './Components/Box/Box';
 import Card from './Components/Card/Card';
+import { ToastContainer } from "react-toastify";
+import { toast } from "react-toastify";
 
 const App = () => {
   const [tickets, setTickets] = useState([]); // main tickets
@@ -23,7 +25,8 @@ const App = () => {
     if (!taskStatus.find(t => t.id === ticket.id) && !resolvedTasks.find(t => t.id === ticket.id)) {
       setTaskStatus(prev => [...prev, ticket]);
       setInProgressCount(prev => prev + 1);
-      alert(`${ticket.title} added to Task Status`);
+      toast.success("In Progress!");
+     
     }
   };
 
@@ -36,7 +39,9 @@ const App = () => {
       setTickets(prev => prev.filter(t => t.id !== ticketId)); // remove from main tickets
       setInProgressCount(prev => (prev > 0 ? prev - 1 : 0));
       setResolvedCount(prev => prev + 1);
-      alert(`${ticket.title} completed!`);
+      toast.success("Completed!");
+      
+
     }
   };
 
@@ -52,6 +57,16 @@ const App = () => {
         resolvedTasks={resolvedTasks}
       />
       <Footer />
+      <ToastContainer
+        position="top-center"
+        autoClose={3000}
+        style={{
+          color: "#000000",      // Black text
+          fontWeight: "bold",
+  }}
+/>
+
+
     </>
   );
 };
