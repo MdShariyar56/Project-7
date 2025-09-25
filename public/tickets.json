@@ -1,0 +1,92 @@
+[
+  {
+    "id": "#001",
+    "title": "Login Issues - Can't Access Account",
+    "description": "User is unable to log in to their account. They are receiving a 'User not found' error even though they are using the correct username and password.",
+    "customer": "Rohan Ali",
+    "priority": "HIGH PRIORITY",
+    "status": "Open",
+    "createdAt": "1/15/2024"
+  },
+  {
+    "id": "#002",
+    "title": "Payment Failed - Card Declined",
+    "description": "Customer's credit card was declined during checkout. They have confirmed the card is active and has sufficient funds. They have tried multiple times with the same result.",
+    "customer": "Nusrat Jahan",
+    "priority": "HIGH PRIORITY",
+    "status": "In- Progress",
+    "createdAt": "1/16/2024"
+  },
+  {
+    "id": "#003",
+    "title": "Unable to Download Invoice",
+    "description": "User is unable to download the invoice for their recent purchase. When they click the 'Download' button, nothing happens or they are redirected to an error page.",
+    "customer": "Jamal Hossain",
+    "priority": "MEDIUM PRIORITY",
+    "status": "In Progress",
+    "createdAt": "1/17/2024"
+  },
+  {
+    "id": "#004",
+    "title": "Incorrect Billing Address",
+    "description": "A customer's billing address is incorrect in their order history. They are unable to edit it, and they are concerned about the financial implications.",
+    "customer": "Anika Fariha",
+    "priority": "LOW PRIORITY",
+    "status": "Open",
+    "createdAt": "1/18/2024"
+  },
+  {
+    "id": "#005",
+    "title": "App Crash on Launch",
+    "description": "The mobile app crashes immediately after launching on all iOS devices. This started happening after the latest app update.",
+    "customer": "Fahim Kabir",
+    "priority": "HIGH PRIORITY",
+    "status": "Open",
+    "createdAt": "1/19/2024"
+  },
+  {
+    "id": "#006",
+    "title": "Refund Not Processed",
+    "description": "A refund was approved and processed 10 business days ago, but the customer has not yet received the funds in their bank account. The refund transaction is showing 'Pending'.",
+    "customer": "Tanjim Rahman",
+    "priority": "MEDIUM PRIORITY",
+    "status": "In Progress",
+    "createdAt": "1/20/2024"
+  },
+  {
+    "id": "#007",
+    "title": "Two-Factor Authentication Issue",
+    "description": "User is unable to log in because their 2FA code is not working. The code from the authenticator app is being rejected as 'invalid'.",
+    "customer": "Sadia Islam",
+    "priority": "HIGH PRIORITY",
+    "status": "Open",
+    "createdAt": "1/21/2024"
+  },
+  {
+    "id": "#008",
+    "title": "Unable to Update Profile Picture",
+    "description": "A user is trying to upload a new profile picture but it fails with a 'File size too large' error, even though the image is a small JPEG file.",
+    "customer": "Rifat Ahmed",
+    "priority": "LOW PRIORITY",
+    "status": "In- Progress",
+    "createdAt": "1/22/2024"
+  },
+  {
+    "id": "#009",
+    "title": "Subscription Auto-Renewal",
+    "description": "Customer reports that their subscription was auto-renewed even though they had cancelled it. They want an immediate refund and to ensure this does not happen again.",
+    "customer": "Salma Khatun",
+    "priority": "MEDIUM PRIORITY",
+    "status": "In- Progress",
+    "createdAt": "1/17/2024"
+  },
+  {
+    "id": "#010",
+    "title": "Missing Order Confirmation Email",
+    "description": "Customer completed a purchase successfully but never received the order confirmation email. They are worried the order was not processed correctly.",
+    "customer": "Sajjad Hossain",
+    "priority": "MEDIUM PRIORITY",
+    "status": "Open",
+    "createdAt": "1/24/2024"
+  }
+]
