@@ -56,6 +56,8 @@ const Card = ({ tickets, addTask, handleComplete, taskStatus, resolvedTasks }) =
                   </div>
                   <div className='flex items-center gap-2 text-xs sm:text-sm'>
                     <p>{ticket.customer}</p>
+                   
+
                     <FontAwesomeIcon icon={faCalendar} className="text-gray-500" />
                     <p>{new Date(ticket.createdAt).toLocaleDateString()}</p>
                   </div>
